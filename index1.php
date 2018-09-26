@@ -35,7 +35,7 @@ Log-in
 </div>
 <p style="clear: both;">
 <?php
-	$mysqli= new mysqli('localhost', 'SIAD_lab7', 'Secretpass123$', 'SIAD_lab7');
+	$mysqli= new mysqli('localhost', 'SIAD_lab7', 'Secretpass123$', 'SIAD_lab');
 	if($mysqli->connect_error)
 		{
 			die('Connection to the database has an error: ' . $mysqli->connect_error);
